@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: #e2e2e2;
+    background-repeat: repeat-x;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.header .header_logo{
+   padding: 22px 0 15px 0;
+}
+
+.header .header_navigation ul{
+    list-style: none;
+    display: flex;
+}
+
+.header_navigation ul{
+    border-radius: 10px;
+}
+
+.header .header_navigation ul li{
+    flex: 1;
+    border: 1px solid #cccccc;
+    border-right: none;
+    overflow: hidden;
+}
+
+.header .header_navigation ul li:first-child{
+    border-radius: 10px 0 0 10px;
+}
+
+.header .header_navigation ul li:last-child{
+     border-radius: 0 10px 10px 0;
+    border-right: 1px soldi #cccccc;
+}
+
+.header .header_navigation ul li a{
+    display: block;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    text-align: center;
+    font-size: 20px;
+    color: #000000;    
+    text-decoration: none;
+    padding: 16px 0;
+
+}
+
+.header .header_navigation ul li a:hover{
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #4099ac, #308da2);
+}
+
+.header .header_navigation ul li:hover{
+    color: #4099ac;
+}
+
+.main_screen{
+    display: flex;
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px 0px;
+    padding-left: 0px;
+}
+.slider1 {
+    width: 546px;
+    height: 409px;
+}
+
+.main_screen .main_images{
+    display: flex;    
+}
+
+.main_screen .main_text{
+    text-align: center;
+    width: 360px;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.main_screen .main_text h2{
+    font-family: Myriad Pro;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.main_screen .main_text h4{
+    font-family: Myriad Pro;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.main_screen .main_text a{
+    font-family: Myriad Pro;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    padding: 17px 23px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+}
+
+.main_screen .main_text a:hover{
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #4099ac, #308da2);
+    padding: 17px 23px;
+    border-radius: 10px;
+    display: inline-block;
+    border: 1px solid #308da2;
+}
+
+.main_content{
+    margin-bottom: 30px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main_content .main_content_top{
+    padding: 20px;
+    background-color: #fefefe;
+}
+
+.main_content .main_content_top .news_block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main_content .main_content_top .news_block .news_item{
+    flex: 0 0 auto;
+    width: calc(25% - 12px);
+}
+
+.main_content .main_content_top .news_block .news_item .news_image img{
+
+    width: 100%;
+    height: 145px;
+}
+
+.main_content .main_content_top .news_block .news_item .news_info{
+    padding: 20px 0 0 15px;
+}
+
+.main_content .main_content_top .news_block .news_item .news_info .news_title{
+    font-size: 13px;
+    color: #318ea2;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.main_content .main_content_top .news_block .news_item .news_info .news_discription{
+    font-size: 13px;
+    color: #323232;
+    margin-bottom: 15px;
+}
+
+.main_content .main_content_bottom{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 35px;
+}
+
+.main_content .main_content_bottom .content_left{
+    flex: 0 0 auto;
+    width: 63%;
+}
+
+.main_content .main_content_bottom .content_left h3{
+    font-size: 32px;
+    font-family: 'Myriad Pro';
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.main_content .main_content_bottom .content_left > p{
+    font-size: 13px;
+    color: #323232;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.main_content .main_content_bottom .content_left .text_block{
+    padding-left: 130px;
+    background-image: url(img/slider2.png);
+    background-repeat: no-repeat;
+    padding-top: 15px;
+}
+
+.main_content .main_content_bottom .content_left .text_block p{
+    margin-bottom: 20px;
+    
+}
+
+.main_content .main_content_bottom .content_left .list_block{
+    display: flex;
+}
+
+.main_content .main_content_bottom .content_left .list_block ul{
+    flex: 0 0 auto;
+    width: 50%;
+    list-style: none;
+    padding-left: 20px;
+    border-right: 1px solid #dadada;
+}
+
+.main_content .main_content_bottom .content_left .list_block ul:last-child{
+    border-right: none;
+    padding-left: 45px;
+}
+
+.main_content .main_content_bottom .content_left .list_block ul li{
+    margin-bottom: 10px;
+    list-style-image: url(img/link_icon.png);
+    transition: .3s all ease;
+}
+
+.main_content .main_content_bottom .content_left .list_block ul li:hover{
+    padding-left: 15px;
+}
+
+.main_content .main_content_bottom .content_left .list_block ul li a{
+    color: #308da2;
+    text-decoration: none;
+    border-bottom: 1px solid #308da2;
+}
+
+.main_content .main_content_bottom .content_right h3{
+    font-size: 30px;
+    font-family: Myriad Pro;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.main_content .main_content_bottom .content_right p{
+    font-family: Arial;
+    font-size: 13px;
+    padding-left: 130px;
+    margin-bottom: 20px;
+}
+
+.main_content .main_content_bottom .content_right .news_item1{
+    background-image: url(img/main_bottom_img1.png);
+    background-repeat: no-repeat;
+}
+
+.main_content .main_content_bottom .content_right .news_item1 a img{
+    padding-left: 130px;
+    margin-bottom: 35px;
+}
+
+.main_content .main_content_bottom .content_right .news_item2{
+    background-image: url(img/main_bottom_img2.png);
+    background-repeat: no-repeat;
+}
+
+.main_content .main_content_bottom .content_right .news_item2 a img{
+    padding-left: 130px;
+    margin-bottom: 35px;
+}
+
+.main_content .main_content_bottom .content_right .news_item3{
+    background-image: url(img/main_bottom_img3.png);
+    background-repeat: no-repeat;
+}
+
+.main_content .main_content_bottom .content_right .news_item3 a img{
+    padding-left: 130px;
+    margin-bottom: 35px;
+}
+
+.footer{
+    font-family: Arial;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 50px;
+}
